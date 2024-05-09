@@ -1,0 +1,45 @@
+#main_nav{
+    margin-left: 0.3%;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    padding: 0;
+    background-color: black;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vh;
+    height: 60px;
+    list-style-type: none;
+    text-align: center;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: left bottom;
+    display: table;
+    table-layout: fixed;
+}
+
+.main_nav__item {
+    font-family: 'Unbounded', Arial, sans-serif;
+    font-size: 20px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+a.nav{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a.nav::after, a::before{
+    padding: 0;
+}
+
+a.nav:hover{
+    color: #fce38a;
+    text-decoration: underline;
+}
+
+.active.nav{
+    color: #ffe37c;
+}

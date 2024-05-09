@@ -1,0 +1,53 @@
+div#main{
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+tr, td, th{
+    border: 1px solid whitesmoke;
+}
+
+td{
+    vertical-align: top;
+}
+
+
+table#media{
+    width: calc(100vw - 120px);
+}
+
+.spanner{
+    vertical-align: inherit;
+    width: calc((100vw - 120px) / 4.02);
+    align-items: center;
+    margin: 1px 1px 1px 1px;
+}
+
+img.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17vw;
+    height: auto;
+}
+
+img.content::before, img.content::after{
+    width: 35vw;
+    height: auto;
+    margin: 0 0 0 0;
+}
+
+img.content:hover{
+    transform: scale(1.3);
+}
+
+#footer{
+    height: 5vh;
+    margin-left: 60px;
+}
+
+p{
+    font-size: 20vw;
+}
