@@ -10,6 +10,7 @@ div#main{
 }
 
 div.pictures{
+    cursor: pointer;
     width: 40vw;
     height: auto;
     border: 1px solid black;
